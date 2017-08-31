@@ -1,0 +1,197 @@
+{
+  "slug": "projects",
+  "name_translations": {
+    "name_en": "Project"
+  },
+  "name_plural_translations": {
+    "name_plural_en": "Projects"
+  },
+  "fields": [
+    {
+      "type": "Field::Int",
+      "slug": "project-id",
+      "comment": "Unique project number",
+      "required": true,
+      "unique": true,
+      "default_value": null,
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "auto_increment": "1"
+      },
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_bc475ee5_0d54_4cc5_9405_533a2532f924",
+      "name_translations": {
+        "name_en": "ID"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "IDs"
+      }
+    },
+    {
+      "type": "Field::Text",
+      "slug": "name",
+      "comment": "",
+      "required": true,
+      "unique": false,
+      "default_value": "",
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "formatted_text": "0"
+      },
+      "primary": true,
+      "display_in_list": true,
+      "uuid": "_af8fbea3_9bf1_4010_8021_f2dc57f9301f",
+      "name_translations": {
+        "name_en": "Name"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Names"
+      },
+      "i18n": false
+    },
+    {
+      "type": "Field::Text",
+      "slug": "summary",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": "",
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "formatted_text": "0"
+      },
+      "primary": false,
+      "display_in_list": false,
+      "uuid": "_ba62a791_c92f_4d94_a8c7_3e3e1bbd1266",
+      "name_translations": {
+        "name_en": "Summary"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Summaries"
+      },
+      "i18n": false
+    },
+    {
+      "type": "Field::URL",
+      "slug": "website",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": "",
+      "options": null,
+      "primary": false,
+      "display_in_list": false,
+      "uuid": "_b3c853be_5048_438c_9847_ae68c9c77ca3",
+      "name_translations": {
+        "name_en": "Website"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Websites"
+      }
+    },
+    {
+      "type": "Field::DateTime",
+      "slug": "start-date",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": null,
+      "options": {
+        "format": "YMD"
+      },
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_9d64e5f0_8abf_4d58_b627_e333ab569c9a",
+      "name_translations": {
+        "name_en": "Start date"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Start dates"
+      }
+    },
+    {
+      "type": "Field::DateTime",
+      "slug": "end-time",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": null,
+      "options": {
+        "format": "YMD"
+      },
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_2a1164c3_8d5f_438f_a909_44170edae6f3",
+      "name_translations": {
+        "name_en": "End time"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "End times"
+      }
+    },
+    {
+      "type": "Field::ChoiceSet",
+      "slug": "research-field",
+      "comment": "",
+      "required": true,
+      "unique": false,
+      "default_value": null,
+      "options": null,
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_9e2a56b4_32c7_4b1f_b8f8_5ca6084139c5",
+      "name_translations": {
+        "name_en": "Research field"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Research fields"
+      },
+      "multiple": true,
+      "choice_set": "4ebdcea9-035b-43f5-9b22-127b6165c593"
+    },
+    {
+      "type": "Field::Reference",
+      "slug": "keyword",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": null,
+      "options": null,
+      "primary": false,
+      "display_in_list": false,
+      "uuid": "_7bda412d_0e30_405c_b0d8_9c851daaf9a4",
+      "name_translations": {
+        "name_en": "Keyword"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Keywords"
+      },
+      "multiple": true,
+      "related_item_type": "keyword"
+    },
+    {
+      "type": "Field::Reference",
+      "slug": "researcher",
+      "comment": "",
+      "required": true,
+      "unique": false,
+      "default_value": null,
+      "options": null,
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_c8349965_58f4_4978_852c_4d1f03a9c0d6",
+      "name_translations": {
+        "name_en": "Researcher"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Researchers"
+      },
+      "multiple": true,
+      "related_item_type": "researchers"
+    }
+  ]
+}

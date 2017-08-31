@@ -1,0 +1,10 @@
+{
+  "name": "Research projects",
+  "slug": "resproj",
+  "primary_language": "en",
+  "other_languages": [
+
+  ],
+  "requires_review": false,
+  "advertize": true
+}

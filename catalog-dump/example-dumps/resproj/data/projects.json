@@ -1,0 +1,88 @@
+{
+  "item-type": "projects",
+  "items": [
+    {
+      "project-id": 3,
+      "name": "Reconstitution of fluvial landscapes of the Swiss Rhone river",
+      "summary": "Research on the palaeolandscpes of the Swiss Rhone river valley is carried out under the umbrella of the Association \"Mémoires du Rhône\". The association is active since 2002 and is organised as a network of researchers interested to the natural and human history of the Swiss Rhone river. Research carried out at the Institute of Geography concerns two domains: (1) cartographic analysis of landscape transformations; (2) reconstructions of geomorphological palaeoenvironments by a multi-method approach combining natural and human sciences approaches. ",
+      "website": "",
+      "start-date": {
+        "M": 11,
+        "Y": 2002
+      },
+      "end-time": {
+        "D": 31,
+        "M": 12,
+        "Y": 2010
+      },
+      "research-field": [
+        "509ad1ae-3c32-4f49-9278-a9b922820c31"
+      ],
+      "keyword": [
+        "2f3da0f8-2c6e-4855-b293-1276f096c8dd",
+        "2dca1d95-2765-4bfb-9bb5-15b961324bc8"
+      ],
+      "researcher": [
+        "53e0b858-2563-45a6-aab1-223d98910275",
+        "d883116f-7687-4d26-8fce-9dbc494693eb",
+        "df809265-70a3-4bc9-8c2b-3a09907c0ef3"
+      ],
+      "uuid": "53a165dc-e40a-4a62-802e-f6999354ee3e"
+    },
+    {
+      "project-id": 2,
+      "name": "Analysis, modelling and visualisation of spatiotemporal data for urban development",
+      "summary": "The proportion of population living in or around cites is more important than ever. Urban sprawl and car dependence have taken over the pedestrian-friendly compact city. Environmental problems like air pollution, land waste or noise, and health problems are the result of this still continuing process. The urban planners have to find solutions to these complex problems, and at the same time insure the economic performance of the city and its surroundings. At the same time, an increasing quantity of socio-economic and environmental data is acquired. In order to get a better understanding of the processes and phenomena taking place in the complex urban environment, these data should be analysed. Numerous methods for modelling and simulating such a system exist and are still under development and can be exploited by the urban geographers for improving our understanding of the urban metabolism. Modern and innovative visualisation techniques help in communicating the results of such models and simulations.<br>This thesis covers several methods for analysis, modelling, simulation and visualisation of problems related to urban geography. The analysis of high dimensional socio-economic data using artificial neural network techniques, especially self-organising maps, is showed using two examples at different scales. The problem of spatiotemporal modelling and data representation is treated and some possible solutions are shown. The simulation of urban dynamics and more specifically the traffic due to commuting to work is illustrated using multi-agent micro-simulation techniques. A section on visualisation methods presents cartograms for transforming the geographic space into a feature space, and the distance circle map, a centre-based map representation particularly useful for urban agglomerations. Some issues on the importance of scale in urban analysis and clustering of urban phenomena are exposed. A new approach on how to define urban areas at different scales is developed, and the link with percolation theory established. Fractal statistics, especially the lacunarity measure, and scale laws are used for characterising urban clusters. In a last section, the population evolution is modelled using a model close to the well-established gravity model.",
+      "website": "",
+      "start-date": {
+        "Y": 2010
+      },
+      "end-time": {
+        "D": 31,
+        "M": 12,
+        "Y": 2014
+      },
+      "research-field": [
+        "232dbb8e-4d87-46d5-9ba6-9ec76ca33b26",
+        "3ce9425b-7f92-471c-be33-e5ba4934c498"
+      ],
+      "keyword": [
+        "e23a514c-224c-42c9-b55b-3ce8acb51b2e",
+        "46c89da7-071f-461e-ad5e-c39bde7fda7b",
+        "641021c5-f57e-4368-9371-84237eeebf93"
+      ],
+      "researcher": [
+        "64c8f7cd-5fd4-4a4b-95c0-68632fc0e0f4",
+        "3bc75a5b-84d2-4575-8a4d-1d0cff2c7a38",
+        "df809265-70a3-4bc9-8c2b-3a09907c0ef3"
+      ],
+      "uuid": "597b0d01-2207-41ce-b891-0df0cc0fcdd4"
+    },
+    {
+      "project-id": 1,
+      "name": "Active mobility & health",
+      "summary": "Land-use planning and planning of transportation networks can influence behaviours with regard to physical activity. In an era characterised by sedentary behaviours and an increase in chronic diseases, promotion of daily physical activity in order to maintain and strengthen the population’s health is a major challenge. Pedestrian and cycling infrastructures as well as public spaces should be conceived in a way that encourages the choice of walking or cycling for daily movements. To this end, environments supporting active mobility must become an important focus of land-use planning policies.",
+      "website": "https://mobilite-sante.ch",
+      "start-date": {
+        "M": 3,
+        "Y": 2008
+      },
+      "end-time": {
+        "D": 30,
+        "M": 6,
+        "Y": 2012
+      },
+      "research-field": [
+        "3ce9425b-7f92-471c-be33-e5ba4934c498"
+      ],
+      "keyword": [
+        "58829352-2634-4f2f-b9da-e189b04d06b7"
+      ],
+      "researcher": [
+        "53e0b858-2563-45a6-aab1-223d98910275",
+        "d883116f-7687-4d26-8fce-9dbc494693eb"
+      ],
+      "uuid": "ec2924fb-1d35-4cc4-b13d-a7b2cf1758a2"
+    }
+  ]
+}

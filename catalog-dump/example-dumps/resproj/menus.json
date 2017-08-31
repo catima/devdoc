@@ -1,0 +1,24 @@
+{
+  "menu-items": [
+    {
+      "slug": "projects",
+      "title": "Projects",
+      "url": null,
+      "rank": 10,
+      "locale": "en",
+      "parent": null,
+      "page": "home",
+      "item-type": null
+    },
+    {
+      "slug": "researchers",
+      "title": "Researchers",
+      "url": null,
+      "rank": 20,
+      "locale": "en",
+      "parent": null,
+      "page": null,
+      "item-type": "researchers"
+    }
+  ]
+}

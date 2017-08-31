@@ -1,0 +1,60 @@
+{
+  "item-type": "researchers",
+  "items": [
+    {
+      "name": "Sheri Shankles",
+      "mail": "sheri@example.com",
+      "photo": {
+        "name": "sheri.png",
+        "path": "upload/resproj/_e1262ce7_8468_498d_b6f0_60288bea224a/1504088861_sheri.png",
+        "size": 5825,
+        "type": "image/png"
+      },
+      "uuid": "df809265-70a3-4bc9-8c2b-3a09907c0ef3"
+    },
+    {
+      "name": "Fabian Klingenberg",
+      "mail": "fabian@example.com",
+      "photo": {
+        "name": "fabian.png",
+        "path": "upload/resproj/_e1262ce7_8468_498d_b6f0_60288bea224a/1504088846_fabian.png",
+        "size": 6028,
+        "type": "image/png"
+      },
+      "uuid": "3bc75a5b-84d2-4575-8a4d-1d0cff2c7a38"
+    },
+    {
+      "name": "Erlene Basta",
+      "mail": "erlene@example.com",
+      "photo": {
+        "name": "erlene.png",
+        "path": "upload/resproj/_e1262ce7_8468_498d_b6f0_60288bea224a/1504088839_erlene.png",
+        "size": 5770,
+        "type": "image/png"
+      },
+      "uuid": "53e0b858-2563-45a6-aab1-223d98910275"
+    },
+    {
+      "name": "Jenni Bowker",
+      "mail": "jenni@example.com",
+      "photo": {
+        "name": "jenni.png",
+        "path": "upload/resproj/_e1262ce7_8468_498d_b6f0_60288bea224a/1504088853_jenni.png",
+        "size": 5832,
+        "type": "image/png"
+      },
+      "uuid": "d883116f-7687-4d26-8fce-9dbc494693eb"
+    },
+    {
+      "name": "Clifford Leite",
+      "mail": "clifford@example.com",
+      "photo": {
+        "name": "clifford.png",
+        "path": "upload/resproj/_e1262ce7_8468_498d_b6f0_60288bea224a/1504088826_clifford.png",
+        "size": 6114,
+        "type": "image/png"
+      },
+      "uuid": "64c8f7cd-5fd4-4a4b-95c0-68632fc0e0f4"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "home",
+  "title": "Welcome to the University Reseach Projects",
+  "locale": "en",
+  "containers": [
+    {
+      "type": "Container::Markdown",
+      "slug": "intro",
+      "row_order": 0,
+      "content": {
+        "markdown": "This database contains a description of our recent research projects. Please feel free to contact any of the researchers involved in a project to get more details."
+      }
+    },
+    {
+      "type": "Container::ItemList",
+      "slug": "research-projects",
+      "row_order": 4194304,
+      "content": {
+        "item_type": "3"
+      }
+    }
+  ]
+}

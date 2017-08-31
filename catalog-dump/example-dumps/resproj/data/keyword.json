@@ -1,0 +1,100 @@
+{
+  "item-type": "keyword",
+  "items": [
+    {
+      "keywords": "Winter Sports",
+      "synonym": "",
+      "uuid": "472ad449-bd6a-4e42-b46d-26342deecdf6"
+    },
+    {
+      "keywords": "Water Uses",
+      "synonym": "",
+      "uuid": "2dca1d95-2765-4bfb-9bb5-15b961324bc8"
+    },
+    {
+      "keywords": "Urban Agriculture",
+      "synonym": "",
+      "uuid": "641021c5-f57e-4368-9371-84237eeebf93"
+    },
+    {
+      "keywords": "Soil Development",
+      "synonym": "",
+      "uuid": "2f3da0f8-2c6e-4855-b293-1276f096c8dd"
+    },
+    {
+      "keywords": "Sedimentary Deposits",
+      "synonym": "",
+      "uuid": "1e8e187b-d8f3-4939-82e7-376a8fe64d0d"
+    },
+    {
+      "keywords": "Natural Hazards",
+      "synonym": "",
+      "uuid": "709b080e-1576-40d0-8716-1aebc1df3f20"
+    },
+    {
+      "keywords": "Mobility",
+      "synonym": "",
+      "uuid": "58829352-2634-4f2f-b9da-e189b04d06b7"
+    },
+    {
+      "keywords": "Housing Market",
+      "synonym": "",
+      "uuid": "ab8ce0d2-38bf-4951-a27f-6a79bc9df30b"
+    },
+    {
+      "keywords": "GIS",
+      "synonym": "Geographic Information System",
+      "uuid": "46c89da7-071f-461e-ad5e-c39bde7fda7b"
+    },
+    {
+      "keywords": "Geosite",
+      "synonym": "Geomorphosite",
+      "uuid": "455f3ba7-bdf7-45a8-8adf-4d97b02c626d"
+    },
+    {
+      "keywords": "Flood risk",
+      "synonym": "",
+      "uuid": "76b70a23-4aec-4a84-9a73-eb23f2642603"
+    },
+    {
+      "keywords": "City",
+      "synonym": "",
+      "uuid": "cc32ca0b-5a4b-4e13-8961-ea3169b1e9de"
+    },
+    {
+      "keywords": "Cartography",
+      "synonym": "Mapping",
+      "uuid": "487f077b-43ed-4ce7-8b5e-352c44a3f6d0"
+    },
+    {
+      "keywords": "Automobile",
+      "synonym": "Car",
+      "uuid": "42de3c3c-c98a-4913-b3ab-3f92fd52969a"
+    },
+    {
+      "keywords": "Artificial Snow",
+      "synonym": "",
+      "uuid": "199ebcc4-134d-48ad-99da-82f63a3c38e2"
+    },
+    {
+      "keywords": "Alps",
+      "synonym": "",
+      "uuid": "363e4e93-3b53-4c29-9c14-e0931f6b42ae"
+    },
+    {
+      "keywords": "Air Pollution",
+      "synonym": "",
+      "uuid": "e23a514c-224c-42c9-b55b-3ce8acb51b2e"
+    },
+    {
+      "keywords": "Agriculture",
+      "synonym": "",
+      "uuid": "59293944-0642-470f-98b4-a39439603888"
+    },
+    {
+      "keywords": "Aerial photographs",
+      "synonym": "",
+      "uuid": "17ff7f68-6a66-49eb-94f1-98a6dcb64ca4"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "choice-sets": [
+    {
+      "name": "Research field",
+      "uuid": "4ebdcea9-035b-43f5-9b22-127b6165c593",
+      "choices": [
+        {
+          "short_name_translations": {
+            "short_name_en": "Alpine Studies"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "509ad1ae-3c32-4f49-9278-a9b922820c31",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Urban Studies"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "3ce9425b-7f92-471c-be33-e5ba4934c498",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Geographic Information Science"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "232dbb8e-4d87-46d5-9ba6-9ec76ca33b26",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Tourism Studies"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "2cccb175-4c35-40fc-a5d2-516e2894f8b9",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Development Studies"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "ad2533ed-5dca-4d69-be42-cddff0004054",
+          "category": null
+        }
+      ]
+    },
+    {
+      "name": "Funding type",
+      "uuid": "4d297845-5342-447d-8191-1efa881c833a",
+      "choices": [
+        {
+          "short_name_translations": {
+            "short_name_en": "University"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "5a33eaf9-1738-4f64-90a0-5007531d52c3",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Science foundation"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "974b6203-cd99-4e36-9a46-267a38d5ba2f",
+          "category": null
+        },
+        {
+          "short_name_translations": {
+            "short_name_en": "Private"
+          },
+          "long_name_translations": {
+            "long_name_en": ""
+          },
+          "uuid": "de716b94-adc3-4bc6-a16f-d9653fd5c4a6",
+          "category": "d33e5810-9e07-476d-a003-8db771a98fb7"
+        }
+      ]
+    }
+  ]
+}

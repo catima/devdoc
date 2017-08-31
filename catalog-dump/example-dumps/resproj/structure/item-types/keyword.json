@@ -1,0 +1,57 @@
+{
+  "slug": "keyword",
+  "name_translations": {
+    "name_en": "Keyword"
+  },
+  "name_plural_translations": {
+    "name_plural_en": "Keywords"
+  },
+  "fields": [
+    {
+      "type": "Field::Text",
+      "slug": "keywords",
+      "comment": "",
+      "required": true,
+      "unique": true,
+      "default_value": "",
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "formatted_text": "0"
+      },
+      "primary": true,
+      "display_in_list": true,
+      "uuid": "_6bb7e46e_1235_43fb_a7bf_52845e39e755",
+      "name_translations": {
+        "name_en": "keyword"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Keywords"
+      },
+      "i18n": false
+    },
+    {
+      "type": "Field::Text",
+      "slug": "synonym",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": "",
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "formatted_text": "0"
+      },
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_de77b754_1c49_4de2_97ac_24e8dac1e5b2",
+      "name_translations": {
+        "name_en": "Synonym"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Synonyms"
+      },
+      "i18n": false
+    }
+  ]
+}

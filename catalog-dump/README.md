@@ -13,23 +13,16 @@ A dump typically contains the following information:
 - the catalog structure
 - the data
 - the files associated with some of the fields
-
-The dump is contained in its own directory with a precise structure:
-
-	-- catalog-dump
-	  |-- structure.json
-	  |-- data
-	    |-- item-type-1.json
-	    |-- item-type-2.json
-	    |-- ...
-	  |-- files
-	    |-- item-type-X
-	      |-- field-Y
-	        |-- file-1.pdf
-	        |-- file-2.md
-	        |-- file-3.docx
-	        |-- ...
-	  |-- catalog
-	  	 |-- ...
+- all the pages and menus if defined
 
 The catalog dump and load works as a task from the command line.
+
+A catalog can be dumped using the command:
+
+	rake catalog:dump catalog=<catalog-slug> dir=<dump-directory>
+
+And for loading a catalog _(not yet implemented)_:
+
+	rake catalog:load dir=<dump-directory>
+
+The folder [example-dumps](example-dumps) contains some examples of catalog dumps that can be used to try it out, and for testing.

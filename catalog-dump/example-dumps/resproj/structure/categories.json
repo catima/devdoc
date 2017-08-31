@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "name": "Private funding",
+      "uuid": "d33e5810-9e07-476d-a003-8db771a98fb7",
+      "fields": [
+        {
+          "type": "Field::Text",
+          "slug": "organisation",
+          "comment": "Organisation or company providing the funding",
+          "required": true,
+          "unique": false,
+          "default_value": "",
+          "options": {
+            "maximum": "",
+            "minimum": "",
+            "formatted_text": "0"
+          },
+          "primary": true,
+          "display_in_list": true,
+          "uuid": "_12d52791_4506_4628_88b9_8c67b28932c7",
+          "name_translations": {
+            "name_en": "Organisation"
+          },
+          "name_plural_translations": {
+            "name_plural_en": "Organisations"
+          },
+          "i18n": false
+        }
+      ]
+    }
+  ]
+}

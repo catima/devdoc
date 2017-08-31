@@ -1,0 +1,73 @@
+{
+  "slug": "researchers",
+  "name_translations": {
+    "name_en": "Researcher"
+  },
+  "name_plural_translations": {
+    "name_plural_en": "Researchers"
+  },
+  "fields": [
+    {
+      "type": "Field::Text",
+      "slug": "name",
+      "comment": "",
+      "required": true,
+      "unique": true,
+      "default_value": "",
+      "options": {
+        "maximum": "",
+        "minimum": "",
+        "formatted_text": "0"
+      },
+      "primary": true,
+      "display_in_list": true,
+      "uuid": "_d0c35678_eb12_4e51_8696_83c3276ad4e2",
+      "name_translations": {
+        "name_en": "Name"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Names"
+      },
+      "i18n": false
+    },
+    {
+      "type": "Field::Email",
+      "slug": "mail",
+      "comment": "",
+      "required": false,
+      "unique": true,
+      "default_value": "",
+      "options": null,
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_fa998355_2d2c_4059_a5b1_77cf52246f2b",
+      "name_translations": {
+        "name_en": "Mail"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Mails"
+      }
+    },
+    {
+      "type": "Field::Image",
+      "slug": "photo",
+      "comment": "",
+      "required": false,
+      "unique": false,
+      "default_value": null,
+      "options": {
+        "types": "jpg, jpeg, png, gif"
+      },
+      "primary": false,
+      "display_in_list": true,
+      "uuid": "_e1262ce7_8468_498d_b6f0_60288bea224a",
+      "name_translations": {
+        "name_en": "Photo"
+      },
+      "name_plural_translations": {
+        "name_plural_en": "Photos"
+      },
+      "multiple": false
+    }
+  ]
+}
