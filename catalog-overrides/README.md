@@ -9,4 +9,4 @@ In CATIMA it is possible to override the catalog views, locales, assets etc. CAT
 - all non-JS/CSS in the catalog assets directory
 
 
-
+**Locales** stored in `catalogs/:catalog_slug/locales/*.yml` are loaded automatically by Rails.
