@@ -14,8 +14,8 @@ In CATIMA it is possible to override the catalog views, locales, assets and cont
 **Controllers** stored in `catalogs/:catalog_slug/controllers/:catalog_slug_*_controller.rb`. The following controllers can be overridden:
 
 - catalogs -> `:catalog_slug_catalogs_controller.rb`
-- simple_search -> `:catalog_slug_simple_search_controller.rb`
-- advanced_search -> `:catalog_slug_advanced_search_controller.rb`
+- simple_searches -> `:catalog_slug_simple_searches_controller.rb`
+- advanced_searches -> `:catalog_slug_advanced_searches_controller.rb`
 - items -> `:catalog_slug_items_controller.rb`
 - pages -> `:catalog_slug_pages_controller.rb`
 
