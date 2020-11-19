@@ -1,12 +1,12 @@
 # Catalog dump
 
-Currently, the only possibility to create a Catima catalog is by using the Web-based admin panel. A simple possibility to dump a catalog from Catima does not exist.
+Currently, the only possibility to create a Catima catalog is the web-based sys-admin dashboard.
 
-Some of the data can be accessed through the JSON API, but this is not intended for dumping the catalog.
+Catalogs can be dumped using the "Export" feature available in the administration panel of each catalog. Catalogs can be exported in multiple formats, but the "Catima" format is the only one you can import in another Catima instance.
 
-Importing a complete catalog is also not possible. Only a basic implementation for importing data using CSV files exist.
+Dumping a catalog in cli can be done using the command:
 
-As a result, we would need to have an option for dumping a catalog and for creating a catalog from a dump.
+	rake catalog:dump catalog=<catalog-slug> dir=<dump-directory>
 
 A dump typically contains the following information:
 
@@ -15,13 +15,7 @@ A dump typically contains the following information:
 - the files associated with some of the fields
 - all the pages and menus if defined
 
-The catalog dump and load works as a task from the command line.
-
-A catalog can be dumped using the command:
-
-	rake catalog:dump catalog=<catalog-slug> dir=<dump-directory>
-
-And for loading a catalog _(not yet implemented)_:
+And for importing a catalog _(currently in beta)_:
 
 	rake catalog:load dir=<dump-directory>
 
